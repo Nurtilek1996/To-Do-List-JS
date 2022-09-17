@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: url(./Sprinkle.svg);
+    
+}
+body >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.task-list {
+    width: 500px;
+}
+.task {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    margin: 15px 10px;
+}
+.task p {
+    margin-left: 5px;
+}
+.task-list p{
+    margin: 10px;
+    color: #fff;
+}
+.complited{
+    background-color: rgb(56, 119, 208);
+    color: #fff;
+    height: 30px;
+}
+.complited p{
+    text-decoration: line-through;
+}
+
+.input-panel{
+    width: 475px;
+    margin: 8px;
+    padding: 3px;
+    background: rgb(56, 119, 208);
+}
+.input-panel button {
+    width: 30%;
+    padding: 10px 20px;
+    background: rgb(56, 119, 208);
+    color: #fff;
+    border: solid 1px #fff;
+   
+}
+.input-panel input{
+    padding-left: 5px;
+    width: 65%;
+    height: 35px;
+    background-color:  rgb(56, 119, 208);
+    border: solid 1px #fff;
+    color: #fff;
+}
